@@ -224,19 +224,30 @@ export default function Home() {
         a graphic designer, he has been into this journey since 2016.
       </p>
       <p>
-        <b></b>.
+        <b>Pritesh Pitale (Vice-Chairman) -</b>Pritesh Pitale holds the position
+        of Vice-Chairman in N.Y.A.A.S.S. He is an MBA in Marketing and is a part
+        of this organization since 2020
       </p>
       <p>
-        <b></b>.
+        <b>Shraddha Kadam (Secretary) -</b>Shraddha Kadam is one of the
+        co-founders of N.Y.A.A.S.S. and holds the position of Secretary since.
+        She has pursued her Masters in Social Work and has been a part of this
+        journey since 2017.
       </p>
       <p>
-        <b></b>.
+        <b>Aarohi Machikar (Treasurer) -</b>Aarohi Machikar holds the position
+        of Treasurer since 2019 in N.Y.A.A.S.S. and has recently graduated with
+        Bachelors in Commerce.
       </p>
       <p>
-        <b></b>.
+        <b>Rutuja Paygude (Executive Member) -</b>Rutuja Paygude is a part of
+        N.Y.A.A.S.S. since 2020 and is working as an Executive member. She is
+        currently pursuing her Masters in Social Work.
       </p>
       <p>
-        <b></b>.
+        <b>Vaishnavi Joshi (Executive Member) -</b>Vaishnavi Joshi has completed
+        her Graduation in Commerce and is pursuing her interest in Travel &
+        Tourism along with her work in N.Y.A.A.S.S. as an Executive member
       </p>
     </div>
   );
