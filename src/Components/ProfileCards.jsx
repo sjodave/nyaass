@@ -5,7 +5,7 @@ export default function ProfileCards({ info }) {
     <div className="profileCard mt-2">
       {info.map((ev) => {
         return (
-          <div className="col-sm-4 col-11" key={ev.name}>
+          <div className="col-12 col-lg-4 col-md-6" key={ev.name}>
             <Card className="dFlex m-2" style={{ height: "63vh" }}>
               <Card.Img
                 variant="top"

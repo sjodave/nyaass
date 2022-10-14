@@ -8,26 +8,26 @@ export default function Home() {
   const navigate = useNavigate();
   return (
     <>
-      <div className="container">
-        <div id="background">
-          <div id="home-text">
-            <div className="bold">NYAASS</div>
-            <div>
-              <img src="tag line icon.png" alt="Img" className="logo"></img>{" "}
-              स्वात्मानं जानीही। तत् परिवर्तनं भव
-            </div>
-            <br />
-            <h1 id="title" className="bold">
-              Education beyond academics!
-            </h1>
-            <div className="bold">
-              <img src="mission-icon.png" alt="Img" className="logo"></img>{" "}
-              Education for everyone, beyond the social, economic or any other
-              background!
-            </div>
+      <div id="background">
+        <div id="home-text">
+          <div className="bold">NYAASS</div>
+          <div>
+            <img src="tag line icon.png" alt="Img" className="logo"></img>{" "}
+            स्वात्मानं जानीही। तत् परिवर्तनं भव
+          </div>
+          <br />
+          <h1 id="title" className="bold mt-5">
+            Education beyond academics!
+          </h1>
+          <div className="bold">
+            {" "}
+            <img src="mission-icon.png" alt="Img" className="logo"></img>{" "}
+            Education for everyone, beyond the social, economic or any other
+            background!
           </div>
         </div>
-
+      </div>
+      <div className="container">
         <br />
         {/* project temp */}
         <TempProjects></TempProjects>
@@ -205,13 +205,54 @@ export default function Home() {
         <ProfileCards info={members}></ProfileCards>
 
         {/* Testimonials */}
-        <div className="dFlex-space-around">
+        <div className="dFlex-space-around ">
           <div>
             Testimonials <br />
             <b>What does our community wish to say?!</b>
             <br />
-            <CommunityMsg info={community}></CommunityMsg>
           </div>
+        </div>
+        <CommunityMsg info={community}></CommunityMsg>
+        <hr></hr>
+        <a href="https://goo.gl/maps/svNdY51zZVF2jiZd9">Location</a>
+        <br />
+
+        <div>
+          <i
+            className="fa fa-map-marker"
+            aria-hidden="true"
+            style={{ fontSize: "25px", color: "blue" }}
+          ></i>{" "}
+          Head Office - 440, Shukrawar Peth, Opp. Mamledar Kacheri, Shivaji
+          Road, Pune, 411002 LandMark - opposite to Mamledar Kacheri, Shivaji
+          Road
+        </div>
+        <div>
+          <i
+            className="fa fa-clock-o"
+            aria-hidden="true"
+            style={{ fontSize: "25px", color: "blue" }}
+          ></i>{" "}
+          Office timing Mon-Sat: 09.15 AM to 6.00 PM
+        </div>
+        <div>
+          <i
+            className="fa fa-phone"
+            aria-hidden="true"
+            style={{ fontSize: "25px", color: "blue" }}
+          ></i>{" "}
+          Contact No <br />
+          Rohit Yaligar : 7972418492 <br />
+          Pritesh Pitale - 9762198860
+        </div>
+        <div>
+          <i
+            className="fa fa-envelope"
+            aria-hidden="true"
+            style={{ fontSize: "25px", color: "blue" }}
+          ></i>{" "}
+          Email -{" "}
+          <a href="mailto:nyaass.hrdept@gmail.com">nyaass.hrdept@gmail.com</a>
         </div>
       </div>
     </>

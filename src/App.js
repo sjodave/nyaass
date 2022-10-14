@@ -14,7 +14,7 @@ import IDP from "./Components/Projects/IDP";
 
 function App() {
   return (
-    <div>
+    <div id="App">
       <NavigationBar id="navbar"></NavigationBar>
       <Routes>
         <Route path="/" element={<Home />}></Route>

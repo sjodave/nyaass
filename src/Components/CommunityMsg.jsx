@@ -5,20 +5,18 @@ export default function CommunityMsg({ info }) {
     <div className="profileCard mt-2">
       {info.map((ev) => {
         return (
-          <div className="col-sm-5 col-11" key={ev.name}>
-            <Card className="m-2" style={{ height: "77vh" }}>
+          <div className="col-12 col-lg-6 col-md-6" key={ev.name}>
+            <Card className="dFlex m-2">
+              <Card.Img
+                variant="top"
+                src={ev.img}
+                style={{ width: "20vh" }}
+                className="mt-2"
+              />
               <Card.Body>
+                <Card.Title>{ev.name}</Card.Title>
                 <Card.Text>{ev.info}</Card.Text>
               </Card.Body>
-              <div className="d-flex align-items-center justify-content-around">
-                <Card.Img
-                  variant="top"
-                  src={ev.img}
-                  style={{ width: "20vh" }}
-                  className="mb-2"
-                />
-                <Card.Title>{ev.name}</Card.Title>
-              </div>
             </Card>
           </div>
         );
