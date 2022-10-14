@@ -47,22 +47,22 @@ export default function Home() {
         {/* display count of event,project.... */}
         <div className="dFlex display-count bold dark">
           <div>
-            <img src="/Icon/events.png" alt=""></img>
+            <img src="/Icon/events.png" alt="" className="icon"></img>
             <br />
             Events <br /> 50+
           </div>
           <div>
-            <img src="/Icon/Projects.png" alt=""></img>
+            <img src="/Icon/Projects.png" alt="" className="icon"></img>
             <br />
             Projects <br /> 4+
           </div>
           <div>
-            <img src="/Icon/students.png" alt=""></img>
+            <img src="/Icon/students.png" alt="" className="icon"></img>
             <br />
             Students <br /> 200+
           </div>
           <div>
-            <img src="/Icon/Volunteeers.png" alt=""></img>
+            <img src="/Icon/Volunteeers.png" alt="" className="icon"></img>
             <br />
             Volunteers <br /> 90+
           </div>

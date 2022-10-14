@@ -15,26 +15,15 @@ export default function ImageSlider({ images }) {
   };
   return (
     <>
-      <div className="slide-container">
-        <Slide {...slideProperties}>
-          {images.map((e, index) => (
-            <div id="slide-container" key={index}>
-              <div className="d-flex justify-content-center">
-                <img
-                  style={{
-                    width: "90vh",
-                    height: "90vh",
-                    objectFit: "fill",
-                    // borderRadius: "20px",
-                  }}
-                  alt="img"
-                  src={e ? e : ""}
-                />
-              </div>
+      <Slide {...slideProperties}>
+        {images.map((e) => (
+          <div key={e}>
+            <div className="d-flex justify-content-center ">
+              <img className="slideImg" alt="img" src={e ? e : ""} />
             </div>
-          ))}
-        </Slide>
-      </div>
+          </div>
+        ))}
+      </Slide>
     </>
   );
 }
