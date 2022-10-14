@@ -5,7 +5,7 @@ export default function EducationModal() {
     <div className="container px-4">
       <h1>Education model of NYAASS</h1>
       <div className="row gx-5 ">
-        <div className="col-8">
+        <div className="col-lg-8 col-sm-12">
           <div className="bold">Agricultural model of teaching -</div>
           <p>
             We treat education like industrial manufacturing when, in reality,
@@ -23,7 +23,7 @@ export default function EducationModal() {
           </p>
         </div>
         <img
-          className="col-4"
+          className="col-lg-4 col-sm-12"
           src="Eduction model/Agricultural model of teaching.jpg"
           alt="Img"
         ></img>
@@ -31,11 +31,11 @@ export default function EducationModal() {
       <br />
       <div className="row">
         <img
-          className="col-4"
+          className="col-lg-4 col-sm-12"
           src="Eduction model/Holistic education.JPG"
           alt="Img"
         ></img>
-        <div className="col-8">
+        <div className="col-lg-8 col-sm-12">
           <div className="bold">Holistic education -</div>
           <p>
             A holistic methodology seeks to help children develop all their
@@ -53,7 +53,7 @@ export default function EducationModal() {
       </div>
       <br />
       <div className="row">
-        <div className="col-8">
+        <div className="col-lg-8 col-sm-12">
           <div className="bold">Student centered classrooms - </div>
           <p>
             In a traditional teacher-centered model, the instructor is the
@@ -65,7 +65,7 @@ export default function EducationModal() {
           </p>
         </div>
         <img
-          className="col-4"
+          className="col-lg-4 col-sm-12"
           src="/Eduction model/Student centred classrooms.JPG"
           alt="Img"
         ></img>
@@ -73,11 +73,11 @@ export default function EducationModal() {
       <br />
       <div className="row">
         <img
-          className="col-4"
+          className="col-lg-4 col-sm-12"
           src="/Eduction model/Facilitator.JPG"
           alt="Img"
         ></img>
-        <div className="col-8">
+        <div className="col-lg-8 col-sm-12">
           <div className="bold">Facilitator -</div>
           <p>
             The core role of a teacher is to facilitate learning. The concept of
@@ -89,7 +89,7 @@ export default function EducationModal() {
       </div>
       <br />
       <div className="row">
-        <div className="col-8">
+        <div className="col-lg-8 col-sm-12">
           <div className="bold">Activity based learning -</div>
           <p>
             Activity-based learning encourages students to actively participate
@@ -105,7 +105,7 @@ export default function EducationModal() {
           </p>
         </div>
         <img
-          className="col-4"
+          className="col-lg-4 col-sm-12"
           src="/Eduction model/Activity based learning.jpg"
           alt="Img"
         ></img>
@@ -113,11 +113,11 @@ export default function EducationModal() {
       <br />
       <div className="row">
         <img
-          className="col-4"
+          className="col-lg-4 col-sm-12"
           src="/Eduction model/Evaluations.jpg"
           alt="Img"
         ></img>
-        <div className="col-8">
+        <div className="col-lg-8 col-sm-12">
           <div className="bold">Evaluations -</div>
           <p>
             Standardized testing is designed to get every student to arrive at

@@ -1,15 +1,19 @@
 import React from "react";
-
+import ImageSlider from "../ImageSlider";
+import { MentorshipImages } from "../ImageArray";
 export default function BeTheMentor() {
   return (
-    <div className="container">
+    <>
       <h1 id="BeAMentor">BE A MENTOR</h1>
+      <ImageSlider images={MentorshipImages}></ImageSlider>
       <p>
-        “The purpose of mentoring is always to help the mentee to change
-        something – to improve their performance, to develop their leadership
-        qualities, to develop their partnership skills, to realize their vision,
-        or whatever. This movement from where they are, (‘here’), to where they
-        want to be. ”
+        <i>
+          "The purpose of mentoring is always to help the mentee to change
+          something – to improve their performance, to develop their leadership
+          qualities, to develop their partnership skills, to realize their
+          vision, or whatever. This movement from where they are, (‘here’), to
+          where they want to be."
+        </i>
       </p>
       <p>
         If we try to learn about the lives of children and adolescents residing
@@ -52,6 +56,6 @@ export default function BeTheMentor() {
         <li>Emotional Development</li>
         <li>Psychological Development</li>
       </ol>
-    </div>
+    </>
   );
 }

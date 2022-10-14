@@ -1,11 +1,13 @@
 /* eslint-disable no-octal-escape */
 import React from "react";
-
+import ImageSlider from "../ImageSlider";
+import "react-slideshow-image/dist/styles.css";
+import { IDPImages } from "../ImageArray";
 export default function IDP() {
   return (
     <div className="container">
       <h1 id="IDP">Integral Development Programme</h1>
-
+      <ImageSlider images={IDPImages}></ImageSlider>
       <p>
         In IDP, Integral means whole, to develop the whole person. No two
         children are born completely alike. Current environment follows the ‘fit
@@ -15,26 +17,30 @@ export default function IDP() {
         member, and provides opportunities for using and nurturing those
         talents.
       </p>
-      <label for="value">Values</label>
-      <ol id="value">
-        <li>
-          First value of our project is 'nothing can be taught'. Teacher is a
-          helper and a guide . Teacher’s work is to suggest ideas and not to
-          impose them on the students .
-        </li>
-        <li>
-          Second value: It starts with the belief that there is greatness in
-          every student and every staff member.
-        </li>
-      </ol>
-      <label for="value">Physical education</label>
-      <ol id="Physical education">
-        <li>Nutrition</li>
-        <li>Exercise </li>
-        <li>Hygiene </li>
-        <li>Trekking</li>
-        <li> Rest, Relaxation and prevention thinking</li>
-      </ol>
+      <div>
+        Values
+        <ol>
+          <li>
+            First value of our project is 'nothing can be taught'. Teacher is a
+            helper and a guide. Teacher’s work is to suggest ideas and not to
+            impose them on the students.
+          </li>
+          <li>
+            Second value: It starts with the belief that there is greatness in
+            every student and every staff member.
+          </li>
+        </ol>
+      </div>
+      <div>
+        Physical education
+        <ol>
+          <li>Nutrition</li>
+          <li>Exercise </li>
+          <li>Hygiene </li>
+          <li>Trekking</li>
+          <li> Rest, Relaxation and prevention thinking</li>
+        </ol>
+      </div>
       <div>Spiritual Education</div>
       <ol>
         <li> Meaning of life</li>

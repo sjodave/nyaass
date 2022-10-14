@@ -5,7 +5,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 
 function NavScrollExample() {
   return (
-    <Navbar bg="dark" expand="lg" variant="dark">
+    <Navbar bg="dark" expand="lg" variant="dark" fixed="top">
       <Container fluid>
         <Navbar.Brand href="#">NYAASS</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -29,6 +29,30 @@ function NavScrollExample() {
             <Nav.Link href="/Events">Events</Nav.Link>
             <Nav.Link href="/Funding">Funding</Nav.Link>
             <Nav.Link href="/Join-the-moment">Join The Moment</Nav.Link>
+            <Nav.Link href="https://www.facebook.com/nyaassorganization">
+              <i
+                className="fa fa-facebook-f"
+                style={{ fontSize: "20px", color: "white" }}
+              ></i>
+            </Nav.Link>
+            <Nav.Link href="https://www.instagram.com/_nyaass_/">
+              <i
+                className="fa fa-instagram"
+                style={{ fontSize: "20px", color: "white" }}
+              ></i>
+            </Nav.Link>
+            <Nav.Link href="https://www.linkedin.com/in/nyaass-organization-1731101a5/">
+              <i
+                className="fa fa-linkedin-square"
+                style={{ fontSize: "20px", color: "white" }}
+              ></i>
+            </Nav.Link>
+            <Nav.Link href="https://www.youtube.com/channel/UC39fTtuELHKUQMpzIU0tPSQ">
+              <i
+                className="fa fa-youtube-play"
+                style={{ fontSize: "21px", color: "white" }}
+              ></i>
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

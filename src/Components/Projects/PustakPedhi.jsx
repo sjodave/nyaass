@@ -1,9 +1,12 @@
 import React from "react";
+import ImageSlider from "../ImageSlider";
+import { pustakPedhi } from "../ImageArray";
 
 export default function PustakPedhi() {
   return (
     <div className="container">
       <h1 id="PustakPedhi">PUSTAK PEDHI</h1>
+      <ImageSlider images={pustakPedhi}></ImageSlider>;
       <p>
         “Libraries store the energy that fuels the imagination. They open up
         windows to the world and help us explore and achieve and help us improve

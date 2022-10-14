@@ -1,10 +1,14 @@
 import React from "react";
-import { Link, Route } from "react-router-dom";
 
 export default function FoundingStory() {
   return (
     <div className="container">
       <h1>Founding Story</h1>
+      <img
+        src="/FoundingStory/Founding Story.png"
+        alt=""
+        style={{ width: "100%" }}
+      ></img>
       <p>
         A group of young college going students when decided to do something for
         a social cause, various ideas knocked the doors of their minds, may it

@@ -1,9 +1,11 @@
 import React from "react";
-
+import ImageSlider from "../ImageSlider";
+import { PareesImages } from "../ImageArray";
 export default function Parees() {
   return (
-    <>
+    <div className="container">
       <h1>PAREES</h1>
+      <ImageSlider images={PareesImages}></ImageSlider>
       <p>
         Parees' project started especially to provide education opportunities
         for tribal communities' children. Our main objective is to provide
@@ -37,6 +39,6 @@ export default function Parees() {
       </p>
       <p></p>
       <p></p>
-    </>
+    </div>
   );
 }
