@@ -74,7 +74,9 @@ h1 {
   background-image: url("/public/Projects/photo-1488521787991-ed7bbaae773c.jpg");
   width: 100%;
   height: 20%;
+  background-size: cover;
   z-index: -1;
+  -webkit-text-stroke: 1px rgb(22, 22, 22);
 }
 .dark {
   background-color: black;

@@ -83,33 +83,33 @@ export default function Home() {
           <img
             src="/Help/Fund raising 1.jpg"
             alt=""
-            className="col-lg-5 col-sm-12 mb-3"
+            className="col-md-5 col-sm-12 mb-3"
           ></img>
           <img
             src="/Help/Fund raising 2.jpg"
             alt=""
-            className="col-lg-5 col-sm-12 mb-3"
+            className="col-md-5 col-sm-12 mb-3"
           ></img>
-          <p className="col-lg-5 col-sm-12 ">
+          <p className="col-md-5 col-sm-12 ">
             <b className="red">01 Books - </b>
             We arrange for different types of books for all ages. They include
             story books, academic textbooks, journals, novels, educational
             magazines, newspapers, etc.
           </p>
-          <p className="col-lg-5 col-sm-12 ">
+          <p className="col-md-5 col-sm-12 ">
             <b className="green">02 Stationary - </b>
             We arrange useful stationary materials for the different activities
             which are carried out during the sessions by us. As we believe in
             creativity, we make sure that each and every child shows up his/her
             talent.
           </p>
-          <p className="col-lg-5 col-sm-12">
+          <p className="col-md-5 col-sm-12">
             <b className="yellow">03 School Fees - </b>
             We pay the school fees of the students who cannot afford basic
             education. As all children are equal to us, providing them with a
             good academic education is important.
           </p>
-          <p className="col-lg-5 col-sm-12">
+          <p className="col-md-5 col-sm-12">
             <b className="blue">04 Educational Visit - </b>
             We carry out field visits so that our children not only get educated
             through books but also to make them explore the outside world. We

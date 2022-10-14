@@ -17,7 +17,7 @@ export default function TempProjects() {
         </h1>
       </div>
       <div className="row">
-        <div className="col-lg-4 col-sm-12 dFlexVertical">
+        <div className="col-md-4 col-sm-12 dFlexVertical">
           <img
             src="/Projects/Home page IDP  bg2.jpg"
             alt="Img"
@@ -33,7 +33,7 @@ export default function TempProjects() {
             talents.
           </p>
         </div>
-        <div className="col-lg-4 col-sm-12 dFlexVertical">
+        <div className="col-md-4 col-sm-12 dFlexVertical">
           <img
             src="/Projects/Home page Be a mentor bg.jpg"
             alt="Img"
@@ -48,7 +48,7 @@ export default function TempProjects() {
             development in support of organizational goals.
           </p>
         </div>
-        <div className="col-lg-4 col-sm-12 dFlexVertical">
+        <div className="col-md-4 col-sm-12 dFlexVertical">
           <img
             src="/Projects/Home page Pustak pedhi bg.jpg"
             alt="Img"
