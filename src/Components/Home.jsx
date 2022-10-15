@@ -11,22 +11,38 @@ export default function Home() {
       <div id="background">
         <div id="home-text">
           <div className="bold">N.Y.A.A.S.S.</div>
-
           <br />
           <h1 id="title" className="bold mt-4">
             Education beyond academics!
           </h1>
-          <div className="">
+          <div>
             "Education for everyone, beyond the social, economic or any other
             background!"
           </div>
+          <button
+            type="button"
+            className="btn btn-light mt-4"
+            onClick={() => navigate("/about-us")}
+          >
+            Read More
+          </button>
         </div>
       </div>
       <div className="container">
         <br />
-        {/* project temp */}
+        {/* project
+         temp */}
         <TempProjects></TempProjects>
-        <br />
+        <div className="dFlex-center">
+          <button
+            type="button"
+            className="btn btn-primary"
+            onClick={() => navigate("/Projects")}
+          >
+            Read More
+          </button>
+        </div>
+        <hr></hr>
         {/* donation msg */}
         <div className="bold dFlex dark">
           Your small contribution can fuel the dreams in the little eyes of our
@@ -63,7 +79,7 @@ export default function Home() {
             Volunteers <br /> 90+
           </div>
         </div>
-        <br />
+        <hr></hr>
         {/* help us msg card */}
         <div className="dFlex-center m-4">
           <div>
@@ -125,11 +141,12 @@ export default function Home() {
             Donate us
           </button>
         </div>
-        <br />
+        <hr></hr>
         {/* why nyaass */}
         <div className="dFlex-space-around">
           <div>
-            One of the best around <br />
+            <b className="yellow">One of the best around</b>
+            <br />
             <b>Why N.Y.A.A.S.S.</b>
             <br />
           </div>
@@ -234,12 +251,13 @@ export default function Home() {
             Read More
           </button>
         </div>
-        <br />
+        <hr></hr>
         {/* gallery */}
         {/* help us monthly */}
         <div className="dFlex-space-around">
           <div>
-            Help Us <br />
+            <b className="yellow">Help Us</b>
+            <br />
             <b>MONTHLY</b>
             <br />
             <p>
@@ -252,15 +270,17 @@ export default function Home() {
             </p>
           </div>
         </div>
+        <hr></hr>
         {/* Executive Body description */}
-        <div className="dFlex-space-around bold mt-5">
-          Executive Body description
+        <div className="dFlex-space-around mt-5">
+          <b className="subtitle">Executive Body description</b>
         </div>
         <ProfileCards info={members}></ProfileCards>
         {/* Testimonials */}
-        <div className="dFlex-space-around ">
+        <div className="dFlex-space-around mt-5">
           <div>
-            Testimonials <br />
+            <b className="yellow subtitle">Testimonials</b>
+            <br />
             <b>What does our community wish to say?!</b>
             <br />
           </div>

@@ -26,9 +26,6 @@ export default function TempProjects() {
           ></img>
           <p className="mt-4">
             <div className="subtitle">Pustak pedhi</div>
-            <a href="#PustakPedhi">
-              <b>Pustak pedhi:</b>
-            </a>{" "}
             The initiative of 'Pustak Pedhi' is not just meant for the child
             reading it, but it also inculcates a habit of reading amongst their
             siblings, their parents, their friends, and all their social group.
@@ -43,9 +40,6 @@ export default function TempProjects() {
           ></img>
           <p className="mt-4">
             <div className="subtitle">IDP</div>
-            <Link to="/Projects">
-              <b>IDP:</b>
-            </Link>{" "}
             IDP seeks to develop whole person i.e- Mind , body, heart and
             spirit. IDP searches out talents in each student and each staff
             member, and provides opportunities for using and nurturing those
@@ -61,9 +55,6 @@ export default function TempProjects() {
           ></img>
           <p className="mt-4">
             <div className="subtitle">Be a Mentor</div>
-            <a href="#BeAMentor">
-              <b>Be a Mentor:</b>
-            </a>{" "}
             The goal of self-managed mutual learning and the need for mentoring
             is encouraged within the relationship as well as the desire for
             development in support of organizational goals.

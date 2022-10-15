@@ -12,14 +12,14 @@ export default function Funding() {
       </div>
       <br />
       <div className="bold">
-        <account>
+        <p>
           Donate us at - <br />
           Account Name : NYAASS <br />
           Account No : 1324104000039738 <br />
           IFSC : IBKL0001324 <br />
           Branch Name : Dahanukar Colony Branch
-        </account>
-        <img></img>
+        </p>
+        <img src="/QR-Code.jpeg" alt="Img" style={{ height: "100vh" }}></img>
       </div>
     </div>
   );
