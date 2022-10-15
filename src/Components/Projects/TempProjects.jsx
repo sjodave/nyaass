@@ -19,11 +19,30 @@ export default function TempProjects() {
       <div className="row">
         <div className="col-md-4 col-sm-12 dFlexVertical">
           <img
+            className="circular-Img"
+            src="/Projects/Home page Pustak pedhi bg.jpg"
+            alt="Img"
+            style={imageStyle}
+          ></img>
+          <p className="mt-4">
+            <div className="subtitle">Pustak pedhi</div>
+            <a href="#PustakPedhi">
+              <b>Pustak pedhi:</b>
+            </a>{" "}
+            The initiative of 'Pustak Pedhi' is not just meant for the child
+            reading it, but it also inculcates a habit of reading amongst their
+            siblings, their parents, their friends, and all their social group.
+          </p>
+        </div>
+        <div className="col-md-4 col-sm-12 dFlexVertical">
+          <img
+            className="circular-Img"
             src="/Projects/Home page IDP  bg2.jpg"
             alt="Img"
             style={imageStyle}
           ></img>
           <p className="mt-4">
+            <div className="subtitle">IDP</div>
             <Link to="/Projects">
               <b>IDP:</b>
             </Link>{" "}
@@ -35,32 +54,19 @@ export default function TempProjects() {
         </div>
         <div className="col-md-4 col-sm-12 dFlexVertical">
           <img
+            className="circular-Img"
             src="/Projects/Home page Be a mentor bg.jpg"
             alt="Img"
             style={imageStyle}
           ></img>
           <p className="mt-4">
+            <div className="subtitle">Be a Mentor</div>
             <a href="#BeAMentor">
               <b>Be a Mentor:</b>
             </a>{" "}
             The goal of self-managed mutual learning and the need for mentoring
             is encouraged within the relationship as well as the desire for
             development in support of organizational goals.
-          </p>
-        </div>
-        <div className="col-md-4 col-sm-12 dFlexVertical">
-          <img
-            src="/Projects/Home page Pustak pedhi bg.jpg"
-            alt="Img"
-            style={imageStyle}
-          ></img>
-          <p className="mt-4">
-            <a href="#PustakPedhi">
-              <b>Pustak pedhi:</b>
-            </a>{" "}
-            The initiative of 'Pustak Pedhi' is not just meant for the child
-            reading it, but it also inculcates a habit of reading amongst their
-            siblings, their parents, their friends, and all their social group.
           </p>
         </div>
       </div>

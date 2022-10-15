@@ -2,7 +2,9 @@
   margin-top: 62px;
   background-color: rgb(252, 252, 249);
 }
-
+/* h1 {
+  color: dodgerblue;
+} */
 #background {
   margin: 0;
   padding: 0;
@@ -15,15 +17,24 @@
 
 #home-text {
   position: absolute;
-  margin-top: 20vh;
+  margin-top: 18vh;
   left: 2vh;
   color: aliceblue;
-  font-size: calc(1rem + 1vw);
+  font-size: calc(1rem + 0.5vw);
+  max-width: calc(5vh + 45vw);
+}
+#title {
+  font-size: calc(1rem + 2vw + 2vh);
 }
 
-#tagline {
-  font-size: xx-large;
-  font-weight: bolder;
+.subtitle {
+  text-align: center;
+  font-size: calc(1rem + 1vh);
+  font-weight: bold;
+}
+
+.circular-Img {
+  border-radius: 50%;
 }
 
 .logo {
@@ -31,7 +42,12 @@
 }
 
 .icon {
-  width: 6%;
+  width: calc(1rem + 3vw);
+}
+.icon-big {
+  width: calc(1rem + 4vw + 3vh);
+  margin-right: 15px;
+  margin-left: 0;
 }
 
 .bold {
@@ -58,8 +74,12 @@ p {
   display: flex;
   flex-direction: column;
 }
-h1 {
-  color: dodgerblue;
+
+.dFlex-center {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
 
 .display-count {
@@ -99,9 +119,9 @@ h1 {
   text-overflow: ellipsis;
   overflow-y: auto;
 }
-.profileCard::-webkit-scrollbar {
+/* .profileCard::-webkit-scrollbar {
   width: 0 !important;
-}
+} */
 
 .overflow {
   display: flex;
@@ -122,5 +142,10 @@ h1 {
     height: 80vh;
     object-fit: cover;
     object-position: center;
+  }
+}
+@media screen and (min-width: 480px) {
+  #title {
+    max-width: calc(5vh + 30vw);
   }
 }

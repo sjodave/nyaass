@@ -10,20 +10,15 @@ export default function Home() {
     <>
       <div id="background">
         <div id="home-text">
-          <div className="bold">NYAASS</div>
-          <div>
-            <img src="tag line icon.png" alt="Img" className="logo"></img>{" "}
-            स्वात्मानं जानीही। तत् परिवर्तनं भव
-          </div>
+          <div className="bold">N.Y.A.A.S.S.</div>
+
           <br />
-          <h1 id="title" className="bold mt-5">
+          <h1 id="title" className="bold mt-4">
             Education beyond academics!
           </h1>
-          <div className="bold">
-            {" "}
-            <img src="mission-icon.png" alt="Img" className="logo"></img>{" "}
-            Education for everyone, beyond the social, economic or any other
-            background!
+          <div className="">
+            "Education for everyone, beyond the social, economic or any other
+            background!"
           </div>
         </div>
       </div>
@@ -37,7 +32,8 @@ export default function Home() {
           Your small contribution can fuel the dreams in the little eyes of our
           students.
           <button
-            className="btn bg-primary"
+            type="button"
+            className="btn btn-primary"
             onClick={() => navigate("/Funding")}
           >
             Donate Now
@@ -69,26 +65,29 @@ export default function Home() {
         </div>
         <br />
         {/* help us msg card */}
-        <div className="dFlex mt-4">
+        <div className="dFlex-center m-4">
           <div>
-            Help us <br />
+            <b className="yellow">Help us</b>
+            <br />
             <b>Raise your funds for the cause you care</b>
             <br />
+          </div>
+        </div>
+        <div className="row dFlex">
+          <div className="col-md-4 col-sm-12 mb-3">
             Alone we can do so little; together we can do so much, You have the
             Power to bring Happiness so come and join us in this educational
             revolution.
           </div>
-        </div>
-        <div className="row dFlex">
           <img
             src="/Help/Fund raising 1.jpg"
             alt=""
-            className="col-md-5 col-sm-12 mb-3"
+            className="col-md-4 col-sm-12 mb-3"
           ></img>
           <img
             src="/Help/Fund raising 2.jpg"
             alt=""
-            className="col-md-5 col-sm-12 mb-3"
+            className="col-md-4 col-sm-12 mb-3"
           ></img>
           <p className="col-md-5 col-sm-12 ">
             <b className="red">01 Books - </b>
@@ -119,7 +118,8 @@ export default function Home() {
         </div>
         <div className="dFlex-space-around">
           <button
-            className="btn bg-danger"
+            type="button"
+            className="btn btn-primary"
             onClick={() => navigate("/Funding")}
           >
             Donate us
@@ -138,46 +138,101 @@ export default function Home() {
           className="row dFlex cursor"
           onClick={() => navigate("/education-model")}
         >
-          <div className="col-lg-5 col-sm-11">
+          <div className="col-lg-5 col-sm-11 dFlex">
             <img
               src="/Help/Agricultural model of teaching icon.png"
               alt=""
-              className="icon"
-            ></img>{" "}
-            Agricultural model of teaching
+              className="icon-big"
+            ></img>
+            <p>
+              <b>Agricultural model of teaching</b>
+              <br />
+              We treat education like organic farming. We recognize the
+              interdependence of all of the aspects of development. We make them
+              understand what teamwork is. We promote the development of our
+              children not only intellectually but also physically, spiritually,
+              and socially.
+            </p>
           </div>
-          <div className="col-lg-5 col-sm-11">
+          <div className="col-lg-5 col-sm-11 dFlex">
             <img
               src="/Help/Holistic education.png"
               alt=""
-              className="icon"
+              className="icon-big"
             ></img>
-            Holistic education
+            <p>
+              <b>Holistic education</b>
+              <br />
+              This methodology seeks to help children develop all their skills
+              and to build their strengths. It focuses on play-based learning.
+              The child develops better communication skills, social skills,
+              interpersonal skills, builds confidence within oneself and becomes
+              curious about other things.
+            </p>
           </div>
-          <div className="col-lg-5 col-sm-11">
+          <div className="col-lg-5 col-sm-11 dFlex">
             <img
               src="/Help/Student centred classrooms.png"
               alt=""
-              className="icon"
+              className="icon-big"
             ></img>
-            Student centred classrooms
+            <p>
+              <b>Student centred classrooms</b>
+              <br />
+              The instructor is the imparter of knowledge while students listen,
+              and are corrected and evaluated on their performance. The main
+              focus is on both the teachers and students. It opens the door to a
+              multitude of possibilities for educational curricular.
+            </p>
           </div>
-          <div className="col-lg-5 col-sm-11">
-            <img src="/Help/Facilitator.png" alt="" className="icon"></img>{" "}
-            Facilitator
+          <div className="col-lg-5 col-sm-11 dFlex">
+            <img src="/Help/Facilitator.png" alt="" className="icon-big"></img>
+            <p>
+              <b>Facilitator</b>
+              <br />
+              The core role of a teacher is to facilitate learning. The concept
+              of agility in teaching and learning nicely captures the idea that
+              education has to be active, nimble and responsive.
+            </p>
           </div>
-          <div className="col-lg-5 col-sm-11">
+          <div className="col-lg-5 col-sm-11 dFlex">
             <img
               src="/Help/Activity based learning.png"
               alt=""
-              className="icon"
-            ></img>{" "}
-            Activity based learning
+              className="icon-big"
+            ></img>
+            <p>
+              <b>Activity based learning</b>
+              <br />
+              Activity-based learning encourages students to actively
+              participate in their own learning experience through practical
+              activities such as problem-solving and independent investigation.
+              We offer interactive learning forums based around: Exploration,
+              Experimentation, Expression.
+            </p>
           </div>
-          <div className="col-lg-5 col-sm-11">
-            <img src="/Help/Evaluations.png" alt="" className="icon"></img>{" "}
-            Evaluations
+          <div className="col-lg-5 col-sm-11 dFlex">
+            <img src="/Help/Evaluations.png" alt="" className="icon-big"></img>
+            <p>
+              <b>Evaluations</b>
+              <br />
+              Standardized testing is designed to get every student to arrive at
+              the same correct answer to a question, which encourages a sea of
+              sameness. Evaluation makes them realize what it is now and what
+              upgradation needs to be done. They tell us what's strong with
+              students by helping them discover and develop their own unique
+              talents.
+            </p>
           </div>
+        </div>{" "}
+        <div className="dFlex-center">
+          <button
+            type="button"
+            className="btn btn-primary"
+            onClick={() => navigate("/education-model")}
+          >
+            Read More
+          </button>
         </div>
         <br />
         {/* gallery */}
@@ -197,13 +252,11 @@ export default function Home() {
             </p>
           </div>
         </div>
-
         {/* Executive Body description */}
         <div className="dFlex-space-around bold mt-5">
           Executive Body description
         </div>
         <ProfileCards info={members}></ProfileCards>
-
         {/* Testimonials */}
         <div className="dFlex-space-around ">
           <div>
@@ -216,7 +269,6 @@ export default function Home() {
         <hr></hr>
         <a href="https://goo.gl/maps/svNdY51zZVF2jiZd9">Location</a>
         <br />
-
         <div>
           <i
             className="fa fa-map-marker"
