@@ -3,7 +3,7 @@ import ImageSlider from "../ImageSlider";
 import { PareesImages } from "../ImageArray";
 export default function Parees() {
   return (
-    <div className="container">
+    <div className="container" id="Parees">
       <h1>PAREES</h1>
       <ImageSlider images={PareesImages}></ImageSlider>
       <p>

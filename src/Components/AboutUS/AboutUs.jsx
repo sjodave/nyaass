@@ -4,22 +4,18 @@ export default function AboutUs() {
   return (
     // <div>
     //   <h1>About Us</h1>
-    //   <h5>
-    //     Our Mission -
-    //     <img src="mission-icon.png" alt="Img" className="logo"></img>
-    //   </h5>
-    //   <div>
-    //     To empower people with integral education for realisation of self and
-    //     well being of nation.
-    //   </div>
-    //   <h5>
-    //     Our Tagline -
-    //     <img src="tag line icon.png" alt="Img" className="logo"></img>
-    //   </h5>
-    //   <div>स्वात्मानं जानीही। तत् परिवर्तनं भव</div>
+
     // </div>
     <div className="container">
-      <h1>About NYAASS</h1>
+      <h1>About Us</h1>
+      <div>
+        <b>Our Mission</b> -{" "}
+        <i>
+          To empower people with integral education for realisation of self and
+          well being of nation.
+        </i>
+      </div>
+      <div>Our Tagline - स्वात्मानं जानीही। तत् परिवर्तनं भव</div>
       <p>
         (N.Y.A.A.S.S) Nityah Youth Association for Awakening of Self and
         Society" is the name of our organization. N.Y.A.A.S.S focuses on the
