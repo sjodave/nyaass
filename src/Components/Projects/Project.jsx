@@ -1,10 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import BeTheMentor from "./BeTheMentor";
 import IDP from "./IDP";
 import Parees from "./Parees";
 import PustakPedhi from "./PustakPedhi";
-import TempProjects from "./TempProjects";
 
 export default function Project() {
   const style = {
@@ -13,11 +11,9 @@ export default function Project() {
   };
   return (
     <div className="container">
-      <div className="container text-center bold">
-        <h1>
-          <img src="/Projects.png" alt="" style={style}></img> PROJECTS
-        </h1>
-      </div>
+      <h1 className="dark text-center">
+        <img src="/Projects.png" alt="" style={style}></img> PROJECTS
+      </h1>
       <ul>
         <li>
           <a href="#PustakPedhi">Pustak Pedhi</a>

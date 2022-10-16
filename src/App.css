@@ -1,10 +1,12 @@
 #App {
   margin-top: 62px;
-  background-color: rgb(252, 252, 249);
+  background-color: rgb(249, 249, 244);
 }
-/* h1 {
-  color: dodgerblue;
-} */
+#nyaass-logo {
+  padding-top: 1vh;
+  height: 18vh;
+}
+
 #background {
   margin: 0;
   padding: 0;
@@ -12,12 +14,11 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 80%;
-  height: 91vh;
+  height: 92vh;
 }
 
 #home-text {
   position: absolute;
-  margin-top: 18vh;
   left: 2vh;
   color: aliceblue;
   font-size: calc(1rem + 0.5vw);
@@ -93,7 +94,7 @@ p {
 .dark {
   background-color: rgb(53, 52, 52);
   color: white;
-  padding: 3%;
+  padding: 2.5%;
   border-radius: 5px;
 }
 
@@ -136,6 +137,7 @@ p {
   object-fit: cover;
   object-position: center;
 }
+
 @media screen and (min-width: 480px) {
   .slideImg {
     width: 80vh;

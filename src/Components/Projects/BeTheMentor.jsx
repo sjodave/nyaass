@@ -4,9 +4,11 @@ import { MentorshipImages } from "../ImageArray";
 export default function BeTheMentor() {
   return (
     <>
-      <h1 id="BeAMentor">BE A MENTOR</h1>
+      <h1 id="BeAMentor" className="dark text-center">
+        BE A MENTOR
+      </h1>
       <ImageSlider images={MentorshipImages}></ImageSlider>
-      <p>
+      <p className="card p-4">
         <i>
           "The purpose of mentoring is always to help the mentee to change
           something – to improve their performance, to develop their leadership
@@ -47,8 +49,8 @@ export default function BeTheMentor() {
         mentoring is encouraged within the relationship as well as the desire
         for development in support of organizational goals.
       </p>
-      <p>There are six dimensions in this approach:</p>
-      <ol>
+      <ol className="card p-4">
+        There are six dimensions in this approach:
         <li>Social Development</li>
         <li>Personal Development </li>
         <li>Career Development</li>

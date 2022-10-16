@@ -10,6 +10,7 @@ export default function Home() {
     <>
       <div id="background">
         <div id="home-text">
+          <img src="/logos/NYAASS Logo 1.png" alt="" id="nyaass-logo"></img>
           <div className="bold">N.Y.A.A.S.S.</div>
           <br />
           <h1 id="title" className="bold mt-4">
@@ -251,10 +252,9 @@ export default function Home() {
             Read More
           </button>
         </div>
-        <hr></hr>
         {/* gallery */}
         {/* help us monthly */}
-        <div className="dFlex-space-around">
+        <div className="dFlex-space-around card p-4 mt-4">
           <div>
             <b className="yellow">Help Us</b>
             <br />
@@ -270,7 +270,6 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <hr></hr>
         {/* Executive Body description */}
         <div className="dFlex-space-around mt-5">
           <b className="subtitle">Executive Body description</b>
@@ -285,46 +284,33 @@ export default function Home() {
             <br />
           </div>
         </div>
+        {/* community msg */}
         <CommunityMsg info={community}></CommunityMsg>
         <hr></hr>
-        <a href="https://goo.gl/maps/svNdY51zZVF2jiZd9">Location</a>
-        <br />
-        <div>
-          <i
-            className="fa fa-map-marker"
-            aria-hidden="true"
-            style={{ fontSize: "25px", color: "blue" }}
-          ></i>{" "}
-          Head Office - 440, Shukrawar Peth, Opp. Mamledar Kacheri, Shivaji
-          Road, Pune, 411002 LandMark - opposite to Mamledar Kacheri, Shivaji
-          Road
-        </div>
-        <div>
-          <i
-            className="fa fa-clock-o"
-            aria-hidden="true"
-            style={{ fontSize: "25px", color: "blue" }}
-          ></i>{" "}
-          Office timing Mon-Sat: 09.15 AM to 6.00 PM
-        </div>
-        <div>
-          <i
-            className="fa fa-phone"
-            aria-hidden="true"
-            style={{ fontSize: "25px", color: "blue" }}
-          ></i>{" "}
-          Contact No <br />
-          Rohit Yaligar : 7972418492 <br />
-          Pritesh Pitale - 9762198860
-        </div>
-        <div>
-          <i
-            className="fa fa-envelope"
-            aria-hidden="true"
-            style={{ fontSize: "25px", color: "blue" }}
-          ></i>{" "}
-          Email -{" "}
-          <a href="mailto:nyaass.hrdept@gmail.com">nyaass.hrdept@gmail.com</a>
+        <div className="dark">
+          Location -
+          <a href="https://goo.gl/maps/svNdY51zZVF2jiZd9">
+            https://goo.gl/maps/svNdY51zZVF2jiZd9
+          </a>
+          <br />
+          <div>
+            Head Office - 440, Shukrawar Peth, Opp. Mamledar Kacheri, Shivaji
+            Road, Pune, 411002 LandMark - opposite to Mamledar Kacheri, Shivaji
+            Road
+          </div>
+          <div>Office timing Mon-Sat: 09.15 AM to 6.00 PM</div>
+          <div>
+            Contact No - <br />
+            Rohit Yaligar : 7972418492 <br />
+            Pritesh Pitale - 9762198860
+          </div>
+          <div>
+            Email -
+            <a href="mailto:nyaass.hrdept@gmail.com">
+              {" "}
+              nyaass.hrdept@gmail.com
+            </a>
+          </div>
         </div>
       </div>
     </>
