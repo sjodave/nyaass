@@ -34,15 +34,6 @@ export default function Home() {
         {/* project
          temp */}
         <TempProjects></TempProjects>
-        <div className="dFlex-center">
-          <button
-            type="button"
-            className="btn btn-primary"
-            onClick={() => navigate("/Projects")}
-          >
-            Read More
-          </button>
-        </div>
         <hr></hr>
         {/* donation msg */}
         <div className="bold dFlex dark">
