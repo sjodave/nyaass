@@ -1,10 +1,8 @@
-* {
-  box-sizing: border-box;
-}
 #App {
-  margin-top: 62px;
+  margin-top: 54px;
   background-color: rgb(249, 249, 244);
 }
+
 #nyaass-logo {
   padding-top: 1vh;
   height: 18vh;
@@ -17,7 +15,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 80%;
-  height: 92vh;
+  height: calc(100vh - 54px);
 }
 
 #home-text {
@@ -40,7 +38,7 @@
 img {
   object-fit: cover;
   object-position: center;
-  border-radius: 1rem;
+  border-radius: 10%;
 }
 
 .logo {
@@ -61,6 +59,9 @@ img {
 }
 
 p {
+  text-align: justify;
+}
+.justify {
   text-align: justify;
 }
 

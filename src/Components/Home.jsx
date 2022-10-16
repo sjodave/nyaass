@@ -10,10 +10,15 @@ export default function Home() {
     <>
       <div id="background">
         <div id="home-text">
-          <img src="/logos/NYAASS Logo 1.png" alt="" id="nyaass-logo"></img>
+          <img
+            src="/logos/NYAASS Logo 1.png"
+            alt=""
+            id="nyaass-logo"
+            className="mt-1"
+          ></img>
           <div className="bold">N.Y.A.A.S.S.</div>
           <br />
-          <h1 id="title" className="bold mt-2">
+          <h1 id="title" className="bold mt-1">
             Education beyond academics!
           </h1>
           <div>
@@ -22,7 +27,7 @@ export default function Home() {
           </div>
           <button
             type="button"
-            className="btn btn-light mt-4"
+            className="btn btn-light mt-3"
             onClick={() => navigate("/about-us")}
           >
             Read More
@@ -81,7 +86,7 @@ export default function Home() {
             <br />
           </div>
         </div>
-        <div className="row dFlex">
+        <div className="row d-flex justify-content-around">
           <div className="col-md-4 col-sm-12 mb-3">
             Alone we can do so little; together we can do so much, You have the
             Power to bring Happiness so come and join us in this educational
@@ -97,26 +102,26 @@ export default function Home() {
             alt=""
             className="col-md-4 col-sm-12 mb-3"
           ></img>
-          <p className="col-md-5 col-sm-12 ">
+          <p className="col-md-5 col-sm-12 card p-2">
             <b className="red">01 Books - </b>
             We arrange for different types of books for all ages. They include
             story books, academic textbooks, journals, novels, educational
             magazines, newspapers, etc.
           </p>
-          <p className="col-md-5 col-sm-12 ">
+          <p className="col-md-5 col-sm-12 card p-2">
             <b className="green">02 Stationary - </b>
             We arrange useful stationary materials for the different activities
             which are carried out during the sessions by us. As we believe in
             creativity, we make sure that each and every child shows up his/her
             talent.
           </p>
-          <p className="col-md-5 col-sm-12">
+          <p className="col-md-5 col-sm-12 card p-2">
             <b className="yellow">03 School Fees - </b>
             We pay the school fees of the students who cannot afford basic
             education. As all children are equal to us, providing them with a
             good academic education is important.
           </p>
-          <p className="col-md-5 col-sm-12">
+          <p className="col-md-5 col-sm-12 card p-2">
             <b className="blue">04 Educational Visit - </b>
             We carry out field visits so that our children not only get educated
             through books but also to make them explore the outside world. We
