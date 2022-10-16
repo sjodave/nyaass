@@ -3,7 +3,7 @@ import React from "react";
 export default function JoinMoment() {
   return (
     <div className="container">
-      <div className="dark mb-2">
+      <div className="dark mb-4">
         <h1>JOIN THE MOVEMENT</h1>
         <div className="bold">
           JOIN US IN THE PROCESS OF BRINGING OUT THE REVOLUTION IN EDUCATION
@@ -17,7 +17,12 @@ export default function JoinMoment() {
         </p>
       </div>
       <div className="d-flex row mb-4 justify-content-around">
-        <div className="me-5 col-md-5 col-sm-12 card">
+        <img
+          className="col-md-5 col-sm-12"
+          src="/Premium/photo-1488521787991-ed7bbaae773c.jpg"
+          alt=""
+        ></img>
+        <div className="col-md-5 col-sm-12 card p-3">
           <div className="bold">
             Highlights of this internship are as follows:
           </div>
@@ -37,11 +42,6 @@ export default function JoinMoment() {
             Pritesh Pitale +91 9762198860
           </div>
         </div>
-        <img
-          className="col-md-5 col-sm-12"
-          src="/Premium/photo-1488521787991-ed7bbaae773c.jpg"
-          alt=""
-        ></img>
       </div>
     </div>
   );

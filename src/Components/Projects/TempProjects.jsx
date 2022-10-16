@@ -77,7 +77,7 @@ export default function TempProjects() {
   const imageStyle = {
     width: "100%",
     backgroundColor: "gray",
-    // borderRadius: "50%",
+    borderRadius: "1rem",
   };
   return (
     <>

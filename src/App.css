@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 #App {
   margin-top: 62px;
   background-color: rgb(249, 249, 244);
@@ -34,9 +37,11 @@
   font-weight: bold;
 }
 
-/* .circular-Img {
-  border-radius: 50%;
-} */
+img {
+  object-fit: cover;
+  object-position: center;
+  border-radius: 1rem;
+}
 
 .logo {
   width: calc(3vh + 1vw);
