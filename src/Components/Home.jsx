@@ -13,7 +13,7 @@ export default function Home() {
           <img src="/logos/NYAASS Logo 1.png" alt="" id="nyaass-logo"></img>
           <div className="bold">N.Y.A.A.S.S.</div>
           <br />
-          <h1 id="title" className="bold mt-4">
+          <h1 id="title" className="bold mt-2">
             Education beyond academics!
           </h1>
           <div>
