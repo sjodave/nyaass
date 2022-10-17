@@ -10,11 +10,7 @@ function NavScrollExample() {
         <Navbar.Brand href="#">NYAASS</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
-          <Nav
-            className="me-auto my-2 my-lg-0"
-            style={{ maxHeight: "60vh" }}
-            navbarScroll
-          >
+          <Nav className="w-100" style={{ maxHeight: "60vh" }} navbarScroll>
             <Nav.Link href="/">Home</Nav.Link>
             <NavDropdown title="About Us" id="navbarScrollingDropdown">
               <NavDropdown.Item href="/about-us">About Us</NavDropdown.Item>
@@ -29,7 +25,10 @@ function NavScrollExample() {
             <Nav.Link href="/Events">Events</Nav.Link>
             <Nav.Link href="/Funding">Funding</Nav.Link>
             <Nav.Link href="/Join-the-moment">Join The Moment</Nav.Link>
-            <Nav.Link href="https://www.facebook.com/nyaassorganization">
+            <Nav.Link
+              className="ms-lg-auto"
+              href="https://www.facebook.com/nyaassorganization"
+            >
               <i
                 className="fa fa-facebook-f"
                 style={{ fontSize: "20px", color: "white" }}
