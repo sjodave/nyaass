@@ -7,7 +7,7 @@ import CommunityMsg from "./CommunityMsg";
 export default function Home() {
   const navigate = useNavigate();
   return (
-    <>
+    <div className="bg">
       <div id="background">
         <div id="home-text">
           <img
@@ -34,14 +34,13 @@ export default function Home() {
           </button>
         </div>
       </div>
-      <div className="container">
+      <div className="plr mt-5">
         <br />
-        {/* project
-         temp */}
+        {/* project temp */}
         <TempProjects></TempProjects>
         <hr></hr>
         {/* donation msg */}
-        <div className="bold dFlex dark">
+        <div className="bold dFlex dark mt-4 mb-4">
           Your small contribution can fuel the dreams in the little eyes of our
           students.
           <button
@@ -54,7 +53,7 @@ export default function Home() {
         </div>
         <br />
         {/* display count of event,project.... */}
-        <div className="dFlex display-count bold dark">
+        <div className="dFlex display-count bold dark mb-4">
           <div>
             <img src="/Icon/events.png" alt="" className="icon"></img>
             <br />
@@ -80,14 +79,14 @@ export default function Home() {
         {/* help us msg card */}
         <div className="dFlex-center m-4">
           <div>
-            <b className="yellow">Help us</b>
+            <b className="yellow subtitle">Help us</b>
             <br />
-            <b>Raise your funds for the cause you care</b>
+            <b className="subtitle">Raise your funds for the cause you care</b>
             <br />
           </div>
         </div>
-        <div className="row d-flex justify-content-around">
-          <div className="col-md-4 col-sm-12 mb-3">
+        <div className="d-flex flex-wrap justify-content-around">
+          <div className="col-md-4 col-12 mb-4">
             Alone we can do so little; together we can do so much, You have the
             Power to bring Happiness so come and join us in this educational
             revolution.
@@ -95,33 +94,33 @@ export default function Home() {
           <img
             src="/Help/Fund raising 1.jpg"
             alt=""
-            className="col-md-4 col-sm-12 mb-3"
+            className="col-md-3 col-12 mb-5"
           ></img>
           <img
             src="/Help/Fund raising 2.jpg"
             alt=""
-            className="col-md-4 col-sm-12 mb-3"
+            className="col-md-3 col-12 mb-5"
           ></img>
-          <p className="col-md-5 col-sm-12 card p-2">
+          <p className="col-md-5 col-12 card p-2 mb-4">
             <b className="red">01 Books - </b>
             We arrange for different types of books for all ages. They include
             story books, academic textbooks, journals, novels, educational
             magazines, newspapers, etc.
           </p>
-          <p className="col-md-5 col-sm-12 card p-2">
+          <p className="col-md-5 col-12 card p-2 mb-4">
             <b className="green">02 Stationary - </b>
             We arrange useful stationary materials for the different activities
             which are carried out during the sessions by us. As we believe in
             creativity, we make sure that each and every child shows up his/her
             talent.
           </p>
-          <p className="col-md-5 col-sm-12 card p-2">
+          <p className="col-md-5 col-12 card p-2 mb-4">
             <b className="yellow">03 School Fees - </b>
             We pay the school fees of the students who cannot afford basic
             education. As all children are equal to us, providing them with a
             good academic education is important.
           </p>
-          <p className="col-md-5 col-sm-12 card p-2">
+          <p className="col-md-5 col-12 card p-2 mb-4">
             <b className="blue">04 Educational Visit - </b>
             We carry out field visits so that our children not only get educated
             through books but also to make them explore the outside world. We
@@ -129,7 +128,7 @@ export default function Home() {
             etc.
           </p>
         </div>
-        <div className="dFlex-space-around">
+        <div className="dFlex-space-around mt-4 mb-4">
           <button
             type="button"
             className="btn btn-primary"
@@ -140,11 +139,11 @@ export default function Home() {
         </div>
         <hr></hr>
         {/* why nyaass */}
-        <div className="dFlex-space-around">
+        <div className="dFlex-space-around mb-4 mt-5">
           <div>
-            <b className="yellow">One of the best around</b>
+            <b className="yellow subtitle">One of the best around</b>
             <br />
-            <b>Why N.Y.A.A.S.S.</b>
+            <b className="subtitle">Why N.Y.A.A.S.S.</b>
             <br />
           </div>
         </div>
@@ -152,7 +151,7 @@ export default function Home() {
           className="row dFlex cursor"
           onClick={() => navigate("/education-model")}
         >
-          <div className="col-lg-5 col-sm-11 dFlex">
+          <div className="col-lg-5 col-sm-11 dFlex mb-4">
             <img
               src="/Help/Agricultural model of teaching icon.png"
               alt=""
@@ -168,7 +167,7 @@ export default function Home() {
               and socially.
             </p>
           </div>
-          <div className="col-lg-5 col-sm-11 dFlex">
+          <div className="col-lg-5 col-sm-11 dFlex mb-4">
             <img
               src="/Help/Holistic education.png"
               alt=""
@@ -184,7 +183,7 @@ export default function Home() {
               curious about other things.
             </p>
           </div>
-          <div className="col-lg-5 col-sm-11 dFlex">
+          <div className="col-lg-5 col-sm-11 dFlex mb-4">
             <img
               src="/Help/Student centred classrooms.png"
               alt=""
@@ -199,7 +198,7 @@ export default function Home() {
               multitude of possibilities for educational curricular.
             </p>
           </div>
-          <div className="col-lg-5 col-sm-11 dFlex">
+          <div className="col-lg-5 col-sm-11 dFlex mb-4">
             <img src="/Help/Facilitator.png" alt="" className="icon-big"></img>
             <p>
               <b>Facilitator</b>
@@ -209,7 +208,7 @@ export default function Home() {
               education has to be active, nimble and responsive.
             </p>
           </div>
-          <div className="col-lg-5 col-sm-11 dFlex">
+          <div className="col-lg-5 col-sm-11 dFlex mb-4">
             <img
               src="/Help/Activity based learning.png"
               alt=""
@@ -225,7 +224,7 @@ export default function Home() {
               Experimentation, Expression.
             </p>
           </div>
-          <div className="col-lg-5 col-sm-11 dFlex">
+          <div className="col-lg-5 col-sm-11 dFlex mb-4">
             <img src="/Help/Evaluations.png" alt="" className="icon-big"></img>
             <p>
               <b>Evaluations</b>
@@ -238,8 +237,8 @@ export default function Home() {
               talents.
             </p>
           </div>
-        </div>{" "}
-        <div className="dFlex-center">
+        </div>
+        <div className="dFlex-center mb-4 mt-4">
           <button
             type="button"
             className="btn btn-primary"
@@ -250,7 +249,7 @@ export default function Home() {
         </div>
         {/* gallery */}
         {/* help us monthly */}
-        <div className="dFlex-space-around card p-4 mt-4">
+        <div className="dFlex-space-around card p-4 mt-5 mb-4">
           <div>
             <b className="yellow">Help Us</b>
             <br />
@@ -267,10 +266,10 @@ export default function Home() {
           </div>
         </div>
         {/* Executive Body description */}
-        <div className="dFlex-space-around mt-5">
+        <div className="dFlex-space-around mt-5 mb-4">
           <b className="subtitle">Executive Body description</b>
         </div>
-        <ProfileCards info={members}></ProfileCards>
+        <CommunityMsg info={members}></CommunityMsg>
         {/* Testimonials */}
         <div className="dFlex-space-around mt-5">
           <div>
@@ -283,32 +282,29 @@ export default function Home() {
         {/* community msg */}
         <CommunityMsg info={community}></CommunityMsg>
         <hr></hr>
-        <div className="dark">
-          Location -
-          <a href="https://goo.gl/maps/svNdY51zZVF2jiZd9">
-            https://goo.gl/maps/svNdY51zZVF2jiZd9
-          </a>
-          <br />
-          <div>
-            Head Office - 440, Shukrawar Peth, Opp. Mamledar Kacheri, Shivaji
-            Road, Pune, 411002 LandMark - opposite to Mamledar Kacheri, Shivaji
-            Road
-          </div>
-          <div>Office timing Mon-Sat: 09.15 AM to 6.00 PM</div>
-          <div>
-            Contact No - <br />
-            Rohit Yaligar : 7972418492 <br />
-            Pritesh Pitale - 9762198860
-          </div>
-          <div>
-            Email -
-            <a href="mailto:nyaass.hrdept@gmail.com">
-              {" "}
-              nyaass.hrdept@gmail.com
-            </a>
-          </div>
+      </div>
+      <div className="dark">
+        Location -
+        <a href="https://goo.gl/maps/svNdY51zZVF2jiZd9">
+          https://goo.gl/maps/svNdY51zZVF2jiZd9
+        </a>
+        <br />
+        <div>
+          Head Office - 440, Shukrawar Peth, Opp. Mamledar Kacheri, Shivaji
+          Road, Pune, 411002 LandMark - opposite to Mamledar Kacheri, Shivaji
+          Road
+        </div>
+        <div>Office timing Mon-Sat: 09.15 AM to 6.00 PM</div>
+        <div>
+          Contact No - <br />
+          Rohit Yaligar : 7972418492 <br />
+          Pritesh Pitale - 9762198860
+        </div>
+        <div>
+          Email -
+          <a href="mailto:nyaass.hrdept@gmail.com"> nyaass.hrdept@gmail.com</a>
         </div>
       </div>
-    </>
+    </div>
   );
 }

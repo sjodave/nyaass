@@ -3,12 +3,12 @@ import ImageSlider from "../ImageSlider";
 import { PareesImages } from "../ImageArray";
 export default function Parees() {
   return (
-    <>
+    <div className="plr bg mt-5">
       <h1 className="dark text-center" id="Parees">
         PAREES
       </h1>
       <ImageSlider images={PareesImages}></ImageSlider>
-      <div className="card p-4">
+      <div className="">
         <p>
           Parees' project started especially to provide education opportunities
           for tribal communities' children. Our main objective is to provide
@@ -42,6 +42,6 @@ export default function Parees() {
           some awareness programmes for educational awareness in the community.{" "}
         </p>
       </div>
-    </>
+    </div>
   );
 }

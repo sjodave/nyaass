@@ -15,12 +15,12 @@ export default function TempProjects() {
   };
   return (
     <>
-      <div className="container text-center bold">
+      <div className="dark text-center mb-5">
         <h1>
           <img src="/Projects.png" alt="" style={style}></img> PROJECTS
         </h1>
       </div>
-      <div className="row mb-3 d-flex align-items-end">
+      <div className=" row mb-5 d-flex align-items-end ">
         <div className="col-md-4 col-sm-12 dFlexVertical">
           <img
             className="circular-Img"
@@ -28,8 +28,8 @@ export default function TempProjects() {
             alt="Img"
             style={imageStyle}
           ></img>
-          <div className="mt-2 justify">
-            <div className="subtitle">Pustak pedhi</div>
+          <div className="mt-4 justify">
+            <div className="subtitle mb-2">Pustak pedhi</div>
             The initiative of 'Pustak Pedhi' is not just meant for the child
             reading it, but it also inculcates a habit of reading amongst their
             siblings, their parents, their friends, and all their social group.
@@ -42,8 +42,8 @@ export default function TempProjects() {
             alt="Img"
             style={imageStyle}
           ></img>
-          <div className="mt-2 justify">
-            <div className="subtitle">IDP</div>
+          <div className="mt-4 justify">
+            <div className="subtitle mb-2">IDP</div>
             IDP seeks to develop whole person i.e- Mind , body, heart and
             spirit. IDP searches out talents in each student and each staff
             member, and provides opportunities for using and nurturing those
@@ -57,15 +57,15 @@ export default function TempProjects() {
             alt="Img"
             style={imageStyle}
           ></img>
-          <div className="mt-2 justify">
-            <div className="subtitle">Be a Mentor</div>
+          <div className="mt-4 justify">
+            <div className="subtitle mb-2">Be a Mentor</div>
             The goal of self-managed mutual learning and the need for mentoring
             is encouraged within the relationship as well as the desire for
             development in support of organizational goals.
           </div>
         </div>
       </div>
-      <div className="dFlex-center">
+      <div className="dFlex-center m-5">
         <button
           type="button"
           className="btn btn-primary"

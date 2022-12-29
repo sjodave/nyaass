@@ -5,7 +5,7 @@ import "react-slideshow-image/dist/styles.css";
 import { IDPImages } from "../ImageArray";
 export default function IDP() {
   return (
-    <>
+    <div className="plr mt-5">
       <h1 id="IDP" className="dark text-center">
         Integral Development Programme
       </h1>
@@ -21,7 +21,7 @@ export default function IDP() {
           those talents.
         </p>
       </div>
-      <div className="card p-4 mb-2">
+      <div className="card p-3 mb-5 ">
         <div>
           Values
           <ol>
@@ -37,8 +37,8 @@ export default function IDP() {
           </ol>
         </div>
       </div>
-      <div className="row d-flex justify-content-around">
-        <div className="card p-4 mb-2 col-md-5 col-sm-6">
+      <div className="idp-cards">
+        <div className="card p-3 mb-5 col-md-5 col-12">
           Physical education
           <ol>
             <li>Nutrition</li>
@@ -48,7 +48,7 @@ export default function IDP() {
             <li> Rest, Relaxation and prevention thinking</li>
           </ol>
         </div>
-        <div className="card p-4 mb-2 col-md-5 col-sm-6">
+        <div className="card p-3 mb-5 col-12 col-md-5">
           Spiritual Education
           <ol>
             <li> Meaning of life</li>
@@ -56,7 +56,7 @@ export default function IDP() {
             <li>Integrity</li>
           </ol>
         </div>
-        <div className="card p-4 mb-2 col-md-5 col-sm-6">
+        <div className="card p-3 mb-5 col-12 col-md-5">
           Mental Education
           <ol>
             <li>Continuous, Systematic, Discipline study and education</li>
@@ -67,7 +67,7 @@ export default function IDP() {
             <li>Self Awareness </li>
           </ol>
         </div>
-        <div className="card p-4 mb-2 col-md-5 col-sm-6">
+        <div className="card p-3 mb-5 col-12 col-md-5">
           Social and emotional education
           <ol>
             <li>Managing Emotions</li>
@@ -82,7 +82,7 @@ export default function IDP() {
         </div>
       </div>
 
-      <div className="mt-4">
+      <div className=" mb-5">
         <p>
           Integral Development depends on the development of the personalities
           of our students through the skills necessary to lead a good life.
@@ -95,38 +95,41 @@ export default function IDP() {
           physical limits of classrooms is also a thought behind the
           facilitating techniques of IDP.
         </p>
-        <ol className="card p-4 mb-2">
+        <div className="card p-3 mb-5 mt-5">
           Why Life Skills?
-          <li>The promotion of healthy child and adolescent development.</li>
-          <li>
-            Primary prevention of some key causes of child and adolescent death,
-            disease and disability.
-          </li>
-          <li>Socialization</li>
-          <li>Preparing young people for changing social circumstances. </li>
-          <li>
-            Many children live in circumstances that make them especially
-            vulnerable and limits their choices and future potential.
-          </li>
-          <li>
-            Life skills learning does not change events, but helps children to
-            cope better with these events and enrich the world they live in.
-          </li>
-          <li>
-            Life skills learning should help children become more aware of: what
-            they are doing, how they are doing things, how they obtain
-            information - how they think, feel and behave.
-          </li>
-          <li>
-            With better understanding about themselves and others, they can make
-            better choices.
-          </li>
-          <li>
-            A sensitive educator can help children look deep inside themselves,
-            discover causes for problems and start to develop positive behavior.
-          </li>
-        </ol>
+          <ol>
+            <li>The promotion of healthy child and adolescent development.</li>
+            <li>
+              Primary prevention of some key causes of child and adolescent
+              death, disease and disability.
+            </li>
+            <li>Socialization</li>
+            <li>Preparing young people for changing social circumstances. </li>
+            <li>
+              Many children live in circumstances that make them especially
+              vulnerable and limits their choices and future potential.
+            </li>
+            <li>
+              Life skills learning does not change events, but helps children to
+              cope better with these events and enrich the world they live in.
+            </li>
+            <li>
+              Life skills learning should help children become more aware of:
+              what they are doing, how they are doing things, how they obtain
+              information - how they think, feel and behave.
+            </li>
+            <li>
+              With better understanding about themselves and others, they can
+              make better choices.
+            </li>
+            <li>
+              A sensitive educator can help children look deep inside
+              themselves, discover causes for problems and start to develop
+              positive behavior.
+            </li>
+          </ol>
+        </div>
       </div>
-    </>
+    </div>
   );
 }

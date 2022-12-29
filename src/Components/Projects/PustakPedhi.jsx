@@ -4,12 +4,12 @@ import { pustakPedhi } from "../ImageArray";
 
 export default function PustakPedhi() {
   return (
-    <>
+    <div className="plr">
       <h1 id="PustakPedhi" className="dark text-center">
         PUSTAK PEDHI
       </h1>
       <ImageSlider images={pustakPedhi}></ImageSlider>
-      <div className="card p-4">
+      <div className="">
         <p>
           “Libraries store the energy that fuels the imagination. They open up
           windows to the world and help us explore and achieve and help us
@@ -62,6 +62,6 @@ export default function PustakPedhi() {
           Because, "Padhega India, Tabhi Toh Badhega India."
         </p>
       </div>
-    </>
+    </div>
   );
 }

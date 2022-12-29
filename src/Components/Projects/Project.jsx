@@ -10,7 +10,7 @@ export default function Project() {
     width: "9vh",
   };
   return (
-    <div className="container">
+    <>
       <h1 className="dark text-center">
         <img src="/Projects.png" alt="" style={style}></img> PROJECTS
       </h1>
@@ -36,6 +36,6 @@ export default function Project() {
       <BeTheMentor></BeTheMentor>
       <br />
       <Parees></Parees>
-    </div>
+    </>
   );
 }

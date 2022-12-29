@@ -1,11 +1,10 @@
 import React from "react";
-
 import { Slide } from "react-slideshow-image";
 
 export default function ImageSlider({ images }) {
   const slideProperties = {
     duration: 2000,
-    transitionDuration: 400,
+    transitionDuration: 1,
     infinite: true,
     indicators: true,
     slidesToShow: 1,

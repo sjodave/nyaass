@@ -1,4 +1,3 @@
-import "./App.css";
 import NavigationBar from "./Components/NavigationBar";
 import Project from "./Components/Projects/Project";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -11,6 +10,7 @@ import Events from "./Components/Events/Events";
 import Funding from "./Components/Funding/Funding";
 import JoinMoment from "./Components/JoinMOment/JoinMoment";
 import IDP from "./Components/Projects/IDP";
+import "./App.css";
 
 function App() {
   return (
@@ -30,5 +30,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
